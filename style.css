@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+
+#score {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: monospace;
+    z-index: 10;
+}
+
+#gameOver {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    display: none;
+    z-index: 20;
+}
+
+#gameOver h1 {
+    font-size: 48px;
+    margin: 0 0 10px 0;
+}
+
+#gameOver p {
+    font-size: 20px;
+}
+
+#restartButton {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background: #dddddd;
+}
