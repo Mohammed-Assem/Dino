@@ -4,7 +4,7 @@
 
 ![screenshot](https://cdn.hackclub.com/01a016ef-143a-7230-ab7d-30da707bf9d3/screenshot_2026-08-12_172405.png)
 
-Demo URL : [](https://mohammed-assem.github.io/Dino/)
+Demo URL : [demo](https://mohammed-assem.github.io/Dino/)
 
 # Features
 Three-lane with left/right arrow controls to move the dino between lanes.
